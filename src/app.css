@@ -1,0 +1,14 @@
+.main-div{
+    margin: 5vh 30vh;
+    padding: 40px;
+}
+.main-header{
+    text-align: center;
+    font-size: 40px;
+}
+.button-hover{
+    transition: all 0.3s;
+}
+.button-hover:hover{
+    box-shadow: 0 0 8px rgb(4, 150, 150);
+}
