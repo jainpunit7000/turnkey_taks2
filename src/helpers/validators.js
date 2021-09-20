@@ -5,6 +5,7 @@ export const validateEmail = (email) => {
     return emailRegex.test(email.toLowerCase());
   }
   catch(err){
+    console.log(err);
     return false; 
   }
 }
@@ -16,6 +17,7 @@ export const validateContact = (contactNo) => {
     return contactRegex.test(contactNo);
   }
   catch(err){
+    console.log(err);
     return false; 
   }
 }

@@ -51,7 +51,7 @@ class App extends Component {
     }
   }
 
-  handleTextChange = (e,value) => {
+  handleTextChange = (e,{value}) => {
     this.setState({
       [e.target.id]: {value, error: false }
     }) ;
@@ -115,7 +115,7 @@ class App extends Component {
     }
   }
   render() {
-    return (
+      return (
       <div className="main-div">
         <h1 className="main-header">TURNKEY TECH</h1>
         <Form onSubmit={this.handleFormSubmit}>
